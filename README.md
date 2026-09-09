@@ -80,14 +80,6 @@ Other              ████░░░░░░░░░░░░░░░  15
 ---
 
 <p align="center">
-  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohith-E-S&layout=compact&hide_border=true&theme=dark&bg_color=00000000" />
-</p>
-
-<p align="center">
-  <img alt="stats" src="https://github-readme-stats.vercel.app/api?username=Rohith-E-S&show_icons=true&hide_border=true&theme=dark&bg_color=00000000&include_all_commits=true" />
-</p>
-
-<p align="center">
   <img alt="Arch" src="https://img.shields.io/badge/OS-Arch_Linux-1793D1?logo=arch-linux&logoColor=white&style=for-the-badge">
   <img alt="Kotlin" src="https://img.shields.io/badge/Main-Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge">
   <img alt="Rust" src="https://img.shields.io/badge/Side_Rust-DEA584?logo=rust&logoColor=black&style=for-the-badge">
