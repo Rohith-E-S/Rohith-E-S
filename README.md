@@ -50,7 +50,7 @@ WM:       Hyprland (Wayland)
 Terminal: Herdr
 
 <!--github-stats-->
-Commits (public): 493
+Commits (public): 495
 Commits (private): 166
 Pull Requests: 115
 Repos: 25
