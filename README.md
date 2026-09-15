@@ -50,12 +50,12 @@ WM:       Hyprland (Wayland)
 Terminal: Herdr
 
 <!--github-stats-->
-Commits (public): 509
+Commits (public): 516
 Commits (private): 175
-Pull Requests: 122
+Pull Requests: 128
 Repos: 24
-Lines of Code: { 248,477++, 48,574-- }
-Age: 1,048 days
+Lines of Code: { 250,220++, 48,781-- }
+Age: 1,049 days
 <!--/github-stats-->
 </pre></td>
   </tr>
