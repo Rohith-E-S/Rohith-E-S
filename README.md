@@ -52,11 +52,11 @@ WM:       Hyprland (Wayland)
 Terminal: Herdr
 
 <!--github-stats-->
-Commits (public): 730
+Commits (public): 729
 Commits (private): 157
-Pull Requests: 165
+Pull Requests: 164
 Repos: 26
-Lines of Code: { 337,711++, 80,037-- }
+Lines of Code: { 338,182++, 80,106-- }
 Age: 1,100 days
 <!--/github-stats-->
 </pre></td>
@@ -69,7 +69,7 @@ Age: 1,100 days
 <!--languages-->
 ```
 Rust               ████████░░░░░░░░░░░░   40%
-Android (Kotlin)   ███████░░░░░░░░░░░░░   35%
+Android (Kotlin)   ███████░░░░░░░░░░░░░   34%
 JavaScript         ████░░░░░░░░░░░░░░░░   19%
 Python             █░░░░░░░░░░░░░░░░░░░    4%
 Other              ░░░░░░░░░░░░░░░░░░░░    2%
