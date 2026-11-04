@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Fetch real GitHub stats for Rohith-E-S and update README.md between
-the <!--github-stats-->, <!--languages-->, and <!--featured--> markers.
-Runs in GitHub Actions daily.
+the <!--github-stats-->, <!--languages-->, <!--featured--> markers and
+inline <!--kernel--> version. Runs in GitHub Actions daily.
 
 Featured projects + language bar are ranked by commits in the
 last 365 days (public, non-fork repos, authored by LOGIN).
+Kernel version is the latest Arch Linux `linux` package (uname -r style),
+since the Actions runner is Ubuntu, not the author's Arch machine.
 """
 
 import json
@@ -61,6 +63,31 @@ def rest_get(path):
     })
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
+
+
+def arch_kernel_version():
+    """Return latest Arch Linux kernel in uname -r style, or None on failure.
+
+    Arch json: pkgver '7.2.14.arch1' + pkgrel '1' -> '7.2.14-arch1-1'.
+    The runner is Ubuntu, so uname -r there would be misleading.
+    """
+    try:
+        req = urllib.request.Request(
+            "https://archlinux.org/packages/core/x86_64/linux/json/",
+            headers={"User-Agent": "profile-readme-stats/1.0"},
+        )
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.load(r)
+        pkgver = data.get("pkgver", "")
+        pkgrel = data.get("pkgrel", "1")
+        if not pkgver:
+            return None
+        # '7.2.14.arch1-1' -> '7.2.14-arch1-1'
+        version = f"{pkgver}-{pkgrel}".replace(".arch", "-arch")
+        return version
+    except Exception as e:
+        print(f"warn: arch kernel fetch failed: {e}", file=sys.stderr)
+        return None
 
 
 def contributions(login):
@@ -249,6 +276,13 @@ def replace_block(text, name, new_inner):
         lambda m: m.group(1) + new_inner + m.group(3), text)
 
 
+def replace_inline(text, name, new_value):
+    pattern = re.compile(rf"<!--{name}-->.*?<!--/{name}-->", re.S)
+    if not pattern.search(text):
+        sys.exit(f"README.md missing <!--{name}--> markers")
+    return pattern.sub(f"<!--{name}-->{new_value}<!--/{name}-->", text)
+
+
 def main():
     user = contributions(LOGIN)
     created = datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))
@@ -277,6 +311,12 @@ def main():
     updated = replace_block(updated, "github-stats", stats_block)
     updated = replace_block(updated, "languages", lang_block)
     updated = replace_block(updated, "featured", feat_block)
+    kernel = arch_kernel_version()
+    if kernel:
+        updated = replace_inline(updated, "kernel", kernel)
+        print(f"\nKernel (Arch linux): {kernel}")
+    else:
+        print("\nKernel: fetch failed, kept existing value", file=sys.stderr)
     open("README.md", "w").write(updated)
     print(stats_block)
     print(f"\nLangs (repo count): {langs}")
