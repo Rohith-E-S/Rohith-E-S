@@ -5,8 +5,11 @@
 </p>
 
 <p align="center">
-  <img alt="repos" src="https://img.shields.io/badge/Repos-24-blue?style=flat-square">
   <img alt="since" src="https://img.shields.io/badge/Since-Oct_2023-1f2937?style=flat-square">
+  <img alt="OS" src="https://img.shields.io/badge/OS-Arch_Linux-1793D1?logo=arch-linux&logoColor=white&style=flat-square">
+  <img alt="Kotlin" src="https://img.shields.io/badge/Main-Kotlin-7F52FF?logo=kotlin&logoColor=white&style=flat-square">
+  <img alt="Rust" src="https://img.shields.io/badge/Side-Rust-DEA584?logo=rust&logoColor=black&style=flat-square">
+  <img alt="Android" src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white&style=flat-square">
 </p>
 
 <table>
@@ -42,46 +45,73 @@
     <td><pre>
 Rohith-E-S@GitHub
 -----------------
-OS:       Linux
-Kernel:   7.1.9-arch1-2
-Packages: 1,239 (pacman)
+OS:       Linux (Arch)
 Shell:    bash
 WM:       Hyprland (Wayland)
 Terminal: Herdr
 
 <!--github-stats-->
-Commits (public): 726
+Commits (public): 730
 Commits (private): 157
-Pull Requests: 163
+Pull Requests: 164
 Repos: 26
-Lines of Code: { 336,421++, 79,877-- }
-Age: 1,099 days
+Lines of Code: { 337,711++, 80,037-- }
+Age: 1,100 days
 <!--/github-stats-->
 </pre></td>
   </tr>
 </table>
 
 
-**What I hack on:**
+**What I hack on** — by commits, last 365 days:
 
+<!--languages-->
 ```
-Android (Kotlin)  ████████████░░░░░░░  40%
-JavaScript         ██████░░░░░░░░░░░░░  22%
-Python             ███░░░░░░░░░░░░░░░░  12%
-Rust               ███░░░░░░░░░░░░░░░░  11%
-Other              ████░░░░░░░░░░░░░░░  15%
+Rust               ████████░░░░░░░░░░░░   40%
+Android (Kotlin)   ███████░░░░░░░░░░░░░   35%
+JavaScript         ████░░░░░░░░░░░░░░░░   19%
+Python             █░░░░░░░░░░░░░░░░░░░    4%
+Other              ░░░░░░░░░░░░░░░░░░░░    2%
 ```
+<!--/languages-->
 
-- **Android** — Kotlin, Jetpack, Compose
-- **Rust** — CLI tools & desktop experiments
-- **Python & JS** — for the web bits
+- **Android** — Kotlin, Jetpack Compose, Material 3
+- **Rust** — CLI tools & desktop apps (GPUI, Cross-platform)
+- **Python & JS** — for the web bits (React, Express, Vite)
 - **ESP32** — when hardware calls
 
 ---
 
+## Featured projects
+
+> Ranked by commits in the last 365 days — auto-updated daily.
+
+<!--featured-->
+| Project | What it does | Stack | Last 365d |
+|---|---|---|---|
+| [adbshare](https://github.com/Rohith-E-S/adbshare) | Browse Android phone & move files over USB/Wi-Fi via ADB, with FUSE mounts. | Rust · ★0 | 236 commits |
+| [radiothing](https://github.com/Rohith-E-S/radiothing) | Dot-matrix internet radio for Android — thousands of stations, CRT equalizer, no ads. | Kotlin · ★1 | 170 commits |
+| [CivicResolve](https://github.com/Rohith-E-S/CivicResolve) | Civic complaint platform — React web + Kotlin Android + Express/MongoDB, real-time updates. | JavaScript · ★0 | 117 commits |
+| [HyperGesture](https://github.com/Rohith-E-S/HyperGesture) | Edge gestures for Xiaomi HyperOS so you can keep your favourite launcher. | Kotlin · ★2 | 40 commits |
+| [CircleToSearch-desktop](https://github.com/Rohith-E-S/CircleToSearch-desktop) | Circle to Search for Linux & Windows — drag to select, instant visual search. | Rust · ★0 | 36 commits |
+| [DotDesktop](https://github.com/Rohith-E-S/DotDesktop) | Keyboard-first editor for Linux `.desktop` entries — fix Wayland/X11 per app, safely. | Python · ★0 | 19 commits |
+<!--/featured-->
+
+---
+
+## About
+
+I build for Android and the Linux desktop — from Compose UIs on the phone to Rust tools on Arch/Hyprland. I like small, focused utilities that fix a real annoyance (gestures, file sharing, launchers) and ship them as open source.
+
+Currently focused on **HyperGesture** and **adbshare**.
+
+---
+
+## Connect
+
+- **Email:** [vidyaarohith@gmail.com](mailto:vidyaarohith@gmail.com)
+- **GitHub:** [@Rohith-E-S](https://github.com/Rohith-E-S)
+
 <p align="center">
-  <img alt="Arch" src="https://img.shields.io/badge/OS-Arch_Linux-1793D1?logo=arch-linux&logoColor=white&style=for-the-badge">
-  <img alt="Kotlin" src="https://img.shields.io/badge/Main-Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge">
-  <img alt="Rust" src="https://img.shields.io/badge/Side_Rust-DEA584?logo=rust&logoColor=black&style=for-the-badge">
-  <img alt="Android" src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white&style=for-the-badge">
+  <em>Stats auto-update daily via GitHub Actions</em>
 </p>
