@@ -52,11 +52,11 @@ WM:       Hyprland (Wayland)
 Terminal: Herdr
 
 <!--github-stats-->
-Commits (public): 729
+Commits (public): 763
 Commits (private): 157
-Pull Requests: 164
+Pull Requests: 176
 Repos: 26
-Lines of Code: { 338,182++, 80,106-- }
+Lines of Code: { 340,833++, 80,997-- }
 Age: 1,100 days
 <!--/github-stats-->
 </pre></td>
@@ -68,8 +68,8 @@ Age: 1,100 days
 
 <!--languages-->
 ```
-Rust               ████████░░░░░░░░░░░░   40%
-Android (Kotlin)   ███████░░░░░░░░░░░░░   34%
+Rust               ████████░░░░░░░░░░░░   39%
+Android (Kotlin)   ███████░░░░░░░░░░░░░   37%
 JavaScript         ████░░░░░░░░░░░░░░░░   19%
 Python             █░░░░░░░░░░░░░░░░░░░    4%
 Other              ░░░░░░░░░░░░░░░░░░░░    2%
@@ -90,10 +90,10 @@ Other              ░░░░░░░░░░░░░░░░░░░░ 
 <!--featured-->
 | Project | What it does | Stack | Last 365d |
 |---|---|---|---|
-| [adbshare](https://github.com/Rohith-E-S/adbshare) | Browse Android phone & move files over USB/Wi-Fi via ADB, with FUSE mounts. | Rust · ★0 | 236 commits |
+| [adbshare](https://github.com/Rohith-E-S/adbshare) | Browse Android phone & move files over USB/Wi-Fi via ADB, with FUSE mounts. | Rust · ★0 | 239 commits |
 | [radiothing](https://github.com/Rohith-E-S/radiothing) | Dot-matrix internet radio for Android — thousands of stations, CRT equalizer, no ads. | Kotlin · ★1 | 170 commits |
 | [CivicResolve](https://github.com/Rohith-E-S/CivicResolve) | Civic complaint platform — React web + Kotlin Android + Express/MongoDB, real-time updates. | JavaScript · ★0 | 117 commits |
-| [HyperGesture](https://github.com/Rohith-E-S/HyperGesture) | Edge gestures for Xiaomi HyperOS so you can keep your favourite launcher. | Kotlin · ★2 | 40 commits |
+| [HyperGesture](https://github.com/Rohith-E-S/HyperGesture) | Edge gestures for Xiaomi HyperOS so you can keep your favourite launcher. | Kotlin · ★2 | 67 commits |
 | [CircleToSearch-desktop](https://github.com/Rohith-E-S/CircleToSearch-desktop) | Circle to Search for Linux & Windows — drag to select, instant visual search. | Rust · ★0 | 36 commits |
 | [DotDesktop](https://github.com/Rohith-E-S/DotDesktop) | Keyboard-first editor for Linux `.desktop` entries — fix Wayland/X11 per app, safely. | Python · ★0 | 19 commits |
 <!--/featured-->
