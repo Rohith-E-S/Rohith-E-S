@@ -52,12 +52,12 @@ WM:       Hyprland (Wayland)
 Terminal: Herdr
 
 <!--github-stats-->
-Commits (public): 781
+Commits (public): 785
 Commits (private): 157
-Pull Requests: 178
-Repos: 26
-Lines of Code: { 354,416++, 83,162-- }
-Age: 1,101 days
+Pull Requests: 179
+Repos: 27
+Lines of Code: { 367,955++, 83,418-- }
+Age: 1,102 days
 <!--/github-stats-->
 </pre></td>
   </tr>
@@ -90,7 +90,7 @@ Other              ░░░░░░░░░░░░░░░░░░░░ 
 <!--featured-->
 | Project | What it does | Stack | Last 365d |
 |---|---|---|---|
-| [adbshare](https://github.com/Rohith-E-S/adbshare) | Browse Android phone & move files over USB/Wi-Fi via ADB, with FUSE mounts. | Rust · ★0 | 241 commits |
+| [adbshare](https://github.com/Rohith-E-S/adbshare) | Browse Android phone & move files over USB/Wi-Fi via ADB, with FUSE mounts. | Rust · ★0 | 244 commits |
 | [radiothing](https://github.com/Rohith-E-S/radiothing) | Dot-matrix internet radio for Android — thousands of stations, CRT equalizer, no ads. | Kotlin · ★1 | 170 commits |
 | [CivicResolve](https://github.com/Rohith-E-S/CivicResolve) | Civic complaint platform — React web + Kotlin Android + Express/MongoDB, real-time updates. | JavaScript · ★0 | 117 commits |
 | [HyperGesture](https://github.com/Rohith-E-S/HyperGesture) | Edge gestures for Xiaomi HyperOS so you can keep your favourite launcher. | Kotlin · ★2 | 67 commits |
