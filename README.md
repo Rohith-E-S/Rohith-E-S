@@ -57,7 +57,7 @@ Commits (private): 157
 Pull Requests: 179
 Repos: 27
 Lines of Code: { 367,955++, 83,418-- }
-Age: 1,102 days
+Age: 1,103 days
 <!--/github-stats-->
 </pre></td>
   </tr>
@@ -93,7 +93,7 @@ Other              ░░░░░░░░░░░░░░░░░░░░ 
 | [adbshare](https://github.com/Rohith-E-S/adbshare) | Browse Android phone & move files over USB/Wi-Fi via ADB, with FUSE mounts. | Rust · ★0 | 244 commits |
 | [radiothing](https://github.com/Rohith-E-S/radiothing) | Dot-matrix internet radio for Android — thousands of stations, CRT equalizer, no ads. | Kotlin · ★1 | 170 commits |
 | [CivicResolve](https://github.com/Rohith-E-S/CivicResolve) | Civic complaint platform — React web + Kotlin Android + Express/MongoDB, real-time updates. | JavaScript · ★0 | 117 commits |
-| [HyperGesture](https://github.com/Rohith-E-S/HyperGesture) | Edge gestures for Xiaomi HyperOS so you can keep your favourite launcher. | Kotlin · ★2 | 67 commits |
+| [HyperGesture](https://github.com/Rohith-E-S/HyperGesture) | Edge gestures for Xiaomi HyperOS so you can keep your favourite launcher. | Kotlin · ★4 | 67 commits |
 | [CircleToSearch-desktop](https://github.com/Rohith-E-S/CircleToSearch-desktop) | Circle to Search for Linux & Windows — drag to select, instant visual search. | Rust · ★0 | 36 commits |
 | [DotDesktop](https://github.com/Rohith-E-S/DotDesktop) | Keyboard-first editor for Linux `.desktop` entries — fix Wayland/X11 per app, safely. | Rust · ★0 | 35 commits |
 <!--/featured-->
