@@ -46,7 +46,7 @@
 Rohith-E-S@GitHub
 -----------------
 OS:       Linux (Arch)
-Kernel:   <!--kernel-->7.3.4-arch1-2<!--/kernel-->
+Kernel:   <!--kernel-->7.3.5-arch1-1<!--/kernel-->
 Shell:    bash
 WM:       Hyprland (Wayland)
 Terminal: Herdr
@@ -57,7 +57,7 @@ Commits (private): 150
 Pull Requests: 185
 Repos: 27
 Lines of Code: { 401,984++, 87,437-- }
-Age: 1,114 days
+Age: 1,115 days
 <!--/github-stats-->
 </pre></td>
   </tr>
@@ -93,7 +93,7 @@ Other              ░░░░░░░░░░░░░░░░░░░░ 
 | [adbshare](https://github.com/Rohith-E-S/adbshare) | Browse Android phone & move files over USB/Wi-Fi via ADB, with FUSE mounts. | Rust · ★0 | 252 commits |
 | [radiothing](https://github.com/Rohith-E-S/radiothing) | Dot-matrix internet radio for Android — thousands of stations, CRT equalizer, no ads. | Kotlin · ★1 | 170 commits |
 | [CivicResolve](https://github.com/Rohith-E-S/CivicResolve) | Civic complaint platform — React web + Kotlin Android + Express/MongoDB, real-time updates. | JavaScript · ★0 | 117 commits |
-| [HyperGesture](https://github.com/Rohith-E-S/HyperGesture) | Edge gestures for Xiaomi HyperOS so you can keep your favourite launcher. | Kotlin · ★6 | 67 commits |
+| [HyperGesture](https://github.com/Rohith-E-S/HyperGesture) | Edge gestures for Xiaomi HyperOS so you can keep your favourite launcher. | Kotlin · ★7 | 67 commits |
 | [CircleToSearch-desktop](https://github.com/Rohith-E-S/CircleToSearch-desktop) | Circle to Search for Linux & Windows — drag to select, instant visual search. | Rust · ★0 | 36 commits |
 | [DotDesktop](https://github.com/Rohith-E-S/DotDesktop) | Keyboard-first editor for Linux `.desktop` entries — fix Wayland/X11 per app, safely. | Rust · ★0 | 35 commits |
 <!--/featured-->
