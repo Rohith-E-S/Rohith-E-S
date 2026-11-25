@@ -46,7 +46,7 @@
 Rohith-E-S@GitHub
 -----------------
 OS:       Linux (Arch)
-Kernel:   <!--kernel-->7.3.5-arch1-1<!--/kernel-->
+Kernel:   <!--kernel-->7.3.6-arch1-1<!--/kernel-->
 Shell:    bash
 WM:       Hyprland (Wayland)
 Terminal: Herdr
@@ -57,7 +57,7 @@ Commits (private): 148
 Pull Requests: 185
 Repos: 27
 Lines of Code: { 401,984++, 87,437-- }
-Age: 1,119 days
+Age: 1,120 days
 <!--/github-stats-->
 </pre></td>
   </tr>
